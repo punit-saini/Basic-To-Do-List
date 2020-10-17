@@ -1,0 +1,164 @@
+/* font-family: 'Lemonada', cursive;
+font-family: 'Montserrat', sans-serif; */
+
+
+
+/* Global */
+
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Basic Styling */
+
+.content {
+    min-height: 100vh;
+    background: radial-gradient(rgba(21, 22, 22, 0.507), rgba(109, 114, 114, 0.5), rgba(241, 235, 229, 0.425)), url('/3527266.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* */
+
+.heading {
+    font-size: 50px;
+    color: rgb(59, 59, 55);
+    font-family: 'Lemonada', sans-serif;
+}
+
+
+
+
+/* Add Image */
+
+#add-button {
+    width: 60px;
+    margin: auto;
+    margin-top: 30px;
+    margin: 20px;
+}
+
+#add-button:hover {
+
+    filter: grayscale();
+}
+
+/* table */
+
+#table-div {
+    display: none;
+}
+
+table {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    border: 1px solid transparent;
+    box-shadow: 2px 3px 2px 5px rgba(184, 181, 181, 0.411);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+table:hover {
+    filter: drop-shadow(rgba(255, 255, 0, 0.37) 2px -2px 2px);
+}
+
+table tr td {
+    text-align: center;
+}
+
+table tr th {
+    text-transform: uppercase;
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(128, 128, 128, 0.13);
+    color: black;
+}
+
+tr {
+    background-color: rgb(206, 199, 199);
+    height: 5vh;
+}
+
+tr:nth-child(1) {
+    background-color: rgba(0, 0, 0, 0.664);
+    height: 50px;
+    color: yellow;
+    padding-bottom: 15px;
+}
+
+
+table tr td {
+    border: 1px solid transparent;
+
+}
+
+input {
+    border-radius: 20px;
+    padding-left: 14px;
+    padding-right: 14px;
+    height: 3vh;
+    outline: none;
+}
+
+#btn {
+
+    padding: 6px 12px;
+    font-size: 16px;
+    font-family: 'Lemonada', cursive;
+    border-radius: 25px;
+    outline: none;
+    background-color: black;
+    color: crimson;
+    transition: .5s ease all;
+}
+
+#btn:hover {
+    transform: scale(1.1);
+    color: black;
+    background-color: rgba(220, 20, 60, 0.438);
+}
+
+#status {
+    color: rgb(41, 21, 24);
+    padding-bottom: 50px;
+}
+
+[class^="item-one"] {
+    text-transform: uppercase;
+}
+
+#status {
+    color: yellow;
+    padding: 5px;
+
+}
+
+#status span {
+    margin: 0 10px;
+    color: rgba(255, 255, 0, 0.753);
+    padding: 12px 24px;
+    background-color: rgba(34, 32, 32, 0.705);
+    transition: .5s ease all;
+}
+
+#status span:hover {
+    background-color: rgb(34, 32, 32);
+    color: yellow;
+    cursor: default;
+}
